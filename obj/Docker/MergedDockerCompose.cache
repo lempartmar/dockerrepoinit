@@ -1,0 +1,16 @@
+services:
+  dockerappcompose:
+    build:
+      context: C:\Users\matus\DockerAppCompose
+      dockerfile: DockerAppCompose/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: dockerappcompose
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\matus\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\matus\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

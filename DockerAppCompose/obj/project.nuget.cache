@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NLjp3WMnm5nTh1o6/upog4FiRNthwSNVQTdYjGCzFtjVrOiPlgTyB3PQKlmWPk7k3p/4c3IAo99l6BqBSgCvnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matus\\DockerAppCompose\\DockerAppCompose\\DockerAppCompose.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matus\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
